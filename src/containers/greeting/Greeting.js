@@ -36,10 +36,10 @@ export default function Greeting() {
                 typewriter.typeString(`<span class="greeting-text-p subTitle">${greeting.subTitle}</span>`)
                   .pauseFor(2500)
                   .changeDeleteSpeed(0.5)
-                  .deleteChars(61)
+                  .deleteChars(57)
                   .typeString(`<span class="greeting-text-p subTitle">${greeting.subTitle2}</span>`)
                   .pauseFor(2500)
-                  .deleteChars(108)
+                  .deleteChars(105)
                   .typeString(`<span class="greeting-text-p subTitle">${greeting.subTitle3}</span>`)
                   .pauseFor(2500)
                   .start();
