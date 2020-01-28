@@ -39,7 +39,6 @@ export const ToggleContainer = styled.button`
     &:first-child {
       transform: ${({ lightTheme }) => lightTheme ? 'translateY(-5px)' : 'translateY(100px)'};
     }
-    
     // moon icon
     &:nth-child(2) {
       transform: ${({ lightTheme }) => lightTheme ? 'translateY(-100px)' : 'translateY(-5px)'};

@@ -7,7 +7,7 @@ import {ToggleContainer} from "./Toggle.styled";
 const Toggle = ({ theme, toggleTheme }) => {
   const isLight = theme === 'light';
   return (
-    <ToggleContainer lightTheme={isLight} onClick={toggleTheme}>
+    <ToggleContainer lightTheme={isLight} onClick={toggleTheme} style={{ color: 'transparent' }}>
       <SunIcon />
       <MoonIcon />
     </ToggleContainer>
