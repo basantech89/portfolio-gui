@@ -2,6 +2,7 @@ import trainerImg from './assets/images/trainer.png';
 import workImg from './assets/images/work.png';
 import michiganImg from './assets/images/michi.png';
 import dukeImg from './assets/images/duke.png';
+import gcpImg from './assets/images/gcp.jpg';
 import ossImg from './assets/icons/team.png';
 
 const greeting = {
@@ -85,11 +86,20 @@ const achievementSection = {
     },
     {
       title: "Java Programming: Solving Problems with Software",
-      description: "an online non-credit course authorized byUniversity of Michiganand offered through Coursera",
+      description: "an online non-credit course authorized by University of Michigan, offered through Coursera",
       image: dukeImg,
       footerLink: [
         { name: "Certificate", url: "https://www.coursera.org/account/accomplishments/certificate/JUUXDF2NHT63" },
         { name: "Course", url: "https://www.coursera.org/learn/java-programming?specialization=java-programming" },
+      ]
+    },
+    {
+      title: "Google Cloud Platform Fundamentals: Core Infrastructure",
+      description: "an online non-credit course authorized by University of Michig, offered through Coursera",
+      image: gcpImg,
+      footerLink: [
+        { name: "Certificate", url: "https://www.coursera.org/account/accomplishments/certificate/LDT84D8XCH38" },
+        { name: "Course", url: "https://www.coursera.org/learn/gcp-fundamentals" },
       ]
     },
   ]
