@@ -4,14 +4,14 @@ import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
 import { skillsSection } from "../../portfolio";
 
 export default function Skills() {
-  const [src, setSrc] = useState(require("../../assets/images/flat.png"));
+  const [src, setSrc] = useState(require("../../assets/images/flat(1).webp"));
   let theme = window.localStorage.getItem('theme');
 
   useEffect(() => {
     if (theme === 'light') {
-      setSrc(require("../../assets/images/work(3).png"));
+      setSrc(require("../../assets/images/work3.webp"));
     } else {
-      setSrc(require('../../assets/images/programmer-man.png'));
+      setSrc(require('../../assets/images/programmer-man.webp'));
     }
   }, [theme]);
 

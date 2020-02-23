@@ -9,7 +9,6 @@ const H2 = styled.h1`
   color: ${({ theme }) => theme.title};
 `;
 
-
 export default function ExperienceCard({ blog }) {
   const defaultColors = { background: '#121225', color: '#fff' };
   const [colors, setColors] = useState(defaultColors);

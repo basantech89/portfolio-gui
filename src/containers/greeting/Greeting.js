@@ -6,14 +6,14 @@ import { greeting } from "../../portfolio";
 import Typewriter from 'typewriter-effect';
 
 export default function Greeting() {
-  const [src, setSrc] = useState(require("../../assets/images/flat.png"));
+  const [src, setSrc] = useState(require("../../assets/images/flat(1).webp"));
   let theme = window.localStorage.getItem('theme');
 
   useEffect(() => {
     if (theme === 'light') {
-      setSrc(require("../../assets/images/yoga2.png"));
+      setSrc(require("../../assets/images/yoga2.webp"));
     } else {
-      setSrc(require('../../assets/images/flat.png'));
+      setSrc(require('../../assets/images/flat(1).webp'));
     }
   }, [theme]);
 

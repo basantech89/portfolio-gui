@@ -39,7 +39,7 @@
 }
 
 .certificate-card:hover {
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 20px 30px -10px;
 }
 .certificate-image-div {
   display: flex;

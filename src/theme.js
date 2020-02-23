@@ -1,6 +1,6 @@
-import './assets/images/flat.png';
-import './assets/images/programmer-man.png';
-import './assets/images/work(3).png';
+import './assets/images/flat(1).webp';
+import './assets/images/programmer-man.webp';
+import './assets/images/work3.webp';
 
 
 export const lightTheme = {

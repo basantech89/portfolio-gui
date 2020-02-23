@@ -5,7 +5,6 @@ import { ThemeProvider } from 'styled-components';
 import { useDarkMode } from "./useDarkMode";
 import { lightTheme, darkTheme } from './theme';
 import { GlobalStyles } from "./global";
-import './App.css';
 
 function App() {
   const [theme, toggleTheme] = useDarkMode();

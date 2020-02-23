@@ -1,9 +1,9 @@
-import trainerImg from './assets/images/trainer.png';
-import workImg from './assets/images/work.png';
-import michiganImg from './assets/images/michi.png';
-import dukeImg from './assets/images/duke.png';
-import gcpImg from './assets/images/gcp.jpg';
-import ossImg from './assets/icons/team.png';
+import trainerImg from './assets/images/trainer.webp';
+import workImg from './assets/images/work.webp';
+import michiganImg from './assets/images/michi.webp';
+import dukeImg from './assets/images/duke.webp';
+import gcpImg from './assets/images/gcp.webp';
+import ossImg from './assets/images/team.webp';
 
 const greeting = {
   title: "Hi all 🙌 I'm Basant",
