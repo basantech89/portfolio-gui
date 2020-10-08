@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import "./Header.scss";
 
 const StyledHeader = styled.header`
+  width: 100%;
   background: ${({ theme }) => theme.header};
 `;
 const Anchor = styled.a`
