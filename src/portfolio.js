@@ -118,6 +118,14 @@ const experienceSection = {
     //   detail: "Added functionality to show rectangles on google map and Fixed a bug in latest build"
     // },
     {
+      icon: workImg,
+      url: "https://www.velotio.com/",
+      date: 'APR 2020 - PRESENT',
+      title: "Software Engineer @Velotio",
+      skills: "React | Javascript",
+      detail: "Worked parallely in two teams of 5 engineers each and built two products from scratch just in 3 months"
+    },
+    {
       icon: ossImg,
       url: "https://github.com/fullstackreact/google-maps-react",
       date: 'DEC 2019 - JAN 2019',

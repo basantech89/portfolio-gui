@@ -30,6 +30,9 @@ export const ToggleContainer = styled.button`
     width: 5rem;
     height: 2rem;
   }
+  &:focus {
+  	outline: none;
+  }
   & > * {
     height: 2rem;
     width: 2.5rem;
